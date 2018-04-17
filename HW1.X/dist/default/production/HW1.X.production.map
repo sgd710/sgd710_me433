@@ -958,14 +958,14 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000      0xbaa
+.debug_info     0x00000000      0xa2f
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000      0x742 build/default/production/main.o
- .debug_info    0x00000742       0xf3 c:/program files (x86)/microchip/xc32/v2.05/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
- .debug_info    0x00000835       0xcc c:/program files (x86)/microchip/xc32/v2.05/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
- .debug_info    0x00000901       0xd4 c:/program files (x86)/microchip/xc32/v2.05/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
- .debug_info    0x000009d5       0xef c:/program files (x86)/microchip/xc32/v2.05/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-general-exception-handler.o)
- .debug_info    0x00000ac4       0xe6 c:/program files (x86)/microchip/xc32/v2.05/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
+ .debug_info    0x00000000      0x5c7 build/default/production/main.o
+ .debug_info    0x000005c7       0xf3 c:/program files (x86)/microchip/xc32/v2.05/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_info    0x000006ba       0xcc c:/program files (x86)/microchip/xc32/v2.05/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
+ .debug_info    0x00000786       0xd4 c:/program files (x86)/microchip/xc32/v2.05/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
+ .debug_info    0x0000085a       0xef c:/program files (x86)/microchip/xc32/v2.05/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-general-exception-handler.o)
+ .debug_info    0x00000949       0xe6 c:/program files (x86)/microchip/xc32/v2.05/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
 
 .debug_abbrev   0x00000000      0x16a
  *(.debug_abbrev)

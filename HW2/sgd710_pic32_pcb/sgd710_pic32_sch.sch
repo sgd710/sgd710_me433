@@ -15777,7 +15777,7 @@ Source: www.kingbright.com</description>
 <part name="U$1" library="sgd710_pic32_lib" deviceset="PIC23MX250F128B" device=""/>
 <part name="J1" library="sgd710_pic32_lib" deviceset="USB" device="-MB-H"/>
 <part name="U$2" library="sgd710_pic32_lib" deviceset="SLIDE" device="S"/>
-<part name="U$3" library="sgd710_pic32_lib" deviceset="MCP1702" device="T"/>
+<part name="U$3" library="sgd710_pic32_lib" deviceset="MCP1702" device="T" value="MCP1702"/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="GREEN"/>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="RED"/>
 <part name="U$4" library="sgd710_pic32_lib" deviceset="PB" device="" value="RESET"/>
@@ -15795,7 +15795,7 @@ Source: www.kingbright.com</description>
 <part name="U$6" library="sgd710_pic32_lib" deviceset="CONN_8" device=""/>
 <part name="U$7" library="sgd710_pic32_lib" deviceset="CONN_8" device=""/>
 <part name="U$8" library="sgd710_pic32_lib" deviceset="PICKIT" device=""/>
-<part name="U$9" library="sgd710_pic32_lib" deviceset="OSC" device=""/>
+<part name="U$9" library="sgd710_pic32_lib" deviceset="OSC" device="" value="8MHz"/>
 <part name="GND1" library="sgd710_pic32_lib" deviceset="GND" device=""/>
 <part name="GND2" library="sgd710_pic32_lib" deviceset="GND" device=""/>
 <part name="GND3" library="sgd710_pic32_lib" deviceset="GND" device=""/>
@@ -15804,14 +15804,12 @@ Source: www.kingbright.com</description>
 <part name="GND6" library="sgd710_pic32_lib" deviceset="GND" device=""/>
 <part name="GND7" library="sgd710_pic32_lib" deviceset="GND" device=""/>
 <part name="GND8" library="sgd710_pic32_lib" deviceset="GND" device=""/>
-<part name="GND9" library="sgd710_pic32_lib" deviceset="GND" device=""/>
 <part name="GND10" library="sgd710_pic32_lib" deviceset="GND" device=""/>
 <part name="GND11" library="sgd710_pic32_lib" deviceset="GND" device=""/>
 <part name="GND12" library="sgd710_pic32_lib" deviceset="GND" device=""/>
 <part name="GND13" library="sgd710_pic32_lib" deviceset="GND" device=""/>
 <part name="GND14" library="sgd710_pic32_lib" deviceset="GND" device=""/>
 <part name="GND15" library="sgd710_pic32_lib" deviceset="GND" device=""/>
-<part name="GND16" library="sgd710_pic32_lib" deviceset="GND" device=""/>
 <part name="GND17" library="sgd710_pic32_lib" deviceset="GND" device=""/>
 <part name="P+1" library="sgd710_pic32_lib" deviceset="+5V" device=""/>
 <part name="P+2" library="sgd710_pic32_lib" deviceset="+5V" device=""/>
@@ -15821,8 +15819,11 @@ Source: www.kingbright.com</description>
 <part name="+3V4" library="sgd710_pic32_lib" deviceset="+3V3" device=""/>
 <part name="+3V5" library="sgd710_pic32_lib" deviceset="+3V3" device=""/>
 <part name="+3V6" library="sgd710_pic32_lib" deviceset="+3V3" device=""/>
-<part name="+3V7" library="sgd710_pic32_lib" deviceset="+3V3" device=""/>
 <part name="P+3" library="sgd710_pic32_lib" deviceset="+5V" device=""/>
+<part name="GND18" library="sgd710_pic32_lib" deviceset="GND" device=""/>
+<part name="GND19" library="sgd710_pic32_lib" deviceset="GND" device=""/>
+<part name="+3V7" library="sgd710_pic32_lib" deviceset="+3V3" device=""/>
+<part name="+3V8" library="sgd710_pic32_lib" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15859,14 +15860,12 @@ Source: www.kingbright.com</description>
 <instance part="GND6" gate="1" x="10.16" y="71.12" rot="R270"/>
 <instance part="GND7" gate="1" x="78.74" y="129.54"/>
 <instance part="GND8" gate="1" x="101.6" y="129.54"/>
-<instance part="GND9" gate="1" x="147.32" y="5.08"/>
 <instance part="GND10" gate="1" x="-2.54" y="25.4"/>
 <instance part="GND11" gate="1" x="83.82" y="60.96" rot="R90"/>
 <instance part="GND12" gate="1" x="109.22" y="129.54"/>
 <instance part="GND13" gate="1" x="139.7" y="109.22"/>
 <instance part="GND14" gate="1" x="121.92" y="114.3"/>
 <instance part="GND15" gate="1" x="-5.08" y="60.96" rot="R90"/>
-<instance part="GND16" gate="1" x="91.44" y="7.62"/>
 <instance part="GND17" gate="1" x="55.88" y="-58.42"/>
 <instance part="P+1" gate="1" x="27.94" y="154.94"/>
 <instance part="P+2" gate="1" x="71.12" y="40.64" rot="R270"/>
@@ -15876,8 +15875,11 @@ Source: www.kingbright.com</description>
 <instance part="+3V4" gate="G$1" x="91.44" y="83.82"/>
 <instance part="+3V5" gate="G$1" x="121.92" y="157.48"/>
 <instance part="+3V6" gate="G$1" x="101.6" y="91.44"/>
-<instance part="+3V7" gate="G$1" x="86.36" y="106.68" rot="R270"/>
 <instance part="P+3" gate="1" x="81.28" y="-50.8" rot="R270"/>
+<instance part="GND18" gate="1" x="71.12" y="101.6" rot="R90"/>
+<instance part="GND19" gate="1" x="88.9" y="106.68" rot="R90"/>
+<instance part="+3V7" gate="G$1" x="91.44" y="2.54" rot="R180"/>
+<instance part="+3V8" gate="G$1" x="147.32" y="2.54" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -15945,16 +15947,6 @@ Source: www.kingbright.com</description>
 <wire x1="139.7" y1="111.76" x2="139.7" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND16" gate="1" pin="GND"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="10.16" x2="91.44" y2="15.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND9" gate="1" pin="GND"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="147.32" y1="7.62" x2="147.32" y2="10.16" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U$7" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="-22.86" x2="58.42" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
@@ -15965,6 +15957,16 @@ Source: www.kingbright.com</description>
 <wire x1="50.8" y1="-53.34" x2="55.88" y2="-53.34" width="0.1524" layer="91"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 <wire x1="55.88" y1="-53.34" x2="55.88" y2="-55.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="27.AVSS"/>
+<pinref part="GND18" gate="1" pin="GND"/>
+<wire x1="63.5" y1="101.6" x2="68.58" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="GND19" gate="1" pin="GND"/>
+<wire x1="81.28" y1="106.68" x2="86.36" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -16030,21 +16032,11 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="U$1" gate="G$1" pin="28.AVDD"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
-<wire x1="63.5" y1="106.68" x2="66.04" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="106.68" x2="68.58" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="106.68" x2="68.58" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="106.68" x2="68.58" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="27.AVSS"/>
-<wire x1="63.5" y1="101.6" x2="66.04" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="101.6" x2="66.04" y2="106.68" width="0.1524" layer="91"/>
-<junction x="66.04" y="106.68"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="68.58" y1="106.68" x2="73.66" y2="106.68" width="0.1524" layer="91"/>
 <junction x="68.58" y="106.68"/>
-</segment>
-<segment>
-<pinref part="C1" gate="G$1" pin="2"/>
-<pinref part="+3V7" gate="G$1" pin="+3V3"/>
-<wire x1="81.28" y1="106.68" x2="83.82" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="23.VUSB3V3/B12"/>
@@ -16061,6 +16053,16 @@ Source: www.kingbright.com</description>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
 <pinref part="U$7" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="-20.32" x2="53.34" y2="-20.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="+3V7" gate="G$1" pin="+3V3"/>
+<wire x1="91.44" y1="15.24" x2="91.44" y2="5.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="+3V8" gate="G$1" pin="+3V3"/>
+<wire x1="147.32" y1="10.16" x2="147.32" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -16098,9 +16100,9 @@ Source: www.kingbright.com</description>
 <label x="111.76" y="91.44" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="25.4" x2="182.88" y2="25.4" width="0.1524" layer="91"/>
-<label x="180.34" y="25.4" size="1.778" layer="95"/>
+<pinref part="U$4" gate="G$1" pin="2"/>
+<wire x1="119.38" y1="25.4" x2="132.08" y2="25.4" width="0.1524" layer="91"/>
+<label x="129.54" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -16199,14 +16201,14 @@ Source: www.kingbright.com</description>
 <label x="2.54" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="2"/>
-<wire x1="119.38" y1="25.4" x2="132.08" y2="25.4" width="0.1524" layer="91"/>
-<label x="129.54" y="25.4" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$7" gate="G$1" pin="4"/>
 <wire x1="53.34" y1="-15.24" x2="71.12" y2="-15.24" width="0.1524" layer="91"/>
 <label x="71.12" y="-15.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="2"/>
+<wire x1="175.26" y1="25.4" x2="182.88" y2="25.4" width="0.1524" layer="91"/>
+<label x="180.34" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USBID" class="0">

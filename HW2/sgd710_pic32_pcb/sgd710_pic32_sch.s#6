@@ -15777,7 +15777,7 @@ Source: www.kingbright.com</description>
 <part name="U$1" library="sgd710_pic32_lib" deviceset="PIC23MX250F128B" device=""/>
 <part name="J1" library="sgd710_pic32_lib" deviceset="USB" device="-MB-H"/>
 <part name="U$2" library="sgd710_pic32_lib" deviceset="SLIDE" device="S"/>
-<part name="U$3" library="sgd710_pic32_lib" deviceset="MCP1702" device="T" value="MCP1702"/>
+<part name="U$3" library="sgd710_pic32_lib" deviceset="MCP1702" device="T"/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="GREEN"/>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="RED"/>
 <part name="U$4" library="sgd710_pic32_lib" deviceset="PB" device="" value="RESET"/>
@@ -15795,7 +15795,7 @@ Source: www.kingbright.com</description>
 <part name="U$6" library="sgd710_pic32_lib" deviceset="CONN_8" device=""/>
 <part name="U$7" library="sgd710_pic32_lib" deviceset="CONN_8" device=""/>
 <part name="U$8" library="sgd710_pic32_lib" deviceset="PICKIT" device=""/>
-<part name="U$9" library="sgd710_pic32_lib" deviceset="OSC" device="" value="8MHz"/>
+<part name="U$9" library="sgd710_pic32_lib" deviceset="OSC" device=""/>
 <part name="GND1" library="sgd710_pic32_lib" deviceset="GND" device=""/>
 <part name="GND2" library="sgd710_pic32_lib" deviceset="GND" device=""/>
 <part name="GND3" library="sgd710_pic32_lib" deviceset="GND" device=""/>
@@ -16100,9 +16100,9 @@ Source: www.kingbright.com</description>
 <label x="111.76" y="91.44" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="2"/>
-<wire x1="119.38" y1="25.4" x2="132.08" y2="25.4" width="0.1524" layer="91"/>
-<label x="129.54" y="25.4" size="1.778" layer="95"/>
+<pinref part="U$5" gate="G$1" pin="2"/>
+<wire x1="175.26" y1="25.4" x2="182.88" y2="25.4" width="0.1524" layer="91"/>
+<label x="180.34" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -16201,14 +16201,14 @@ Source: www.kingbright.com</description>
 <label x="2.54" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
+<pinref part="U$4" gate="G$1" pin="2"/>
+<wire x1="119.38" y1="25.4" x2="132.08" y2="25.4" width="0.1524" layer="91"/>
+<label x="129.54" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
 <pinref part="U$7" gate="G$1" pin="4"/>
 <wire x1="53.34" y1="-15.24" x2="71.12" y2="-15.24" width="0.1524" layer="91"/>
 <label x="71.12" y="-15.24" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$5" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="25.4" x2="182.88" y2="25.4" width="0.1524" layer="91"/>
-<label x="180.34" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USBID" class="0">
