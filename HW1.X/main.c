@@ -70,6 +70,6 @@ int main() {
             }
         LATAbits.LATA4 = !LATAbits.LATA4;
         }
-        LATAbits.LATA4 = 0x0;
+        //LATAbits.LATA4 = 0x0;
     }
     }
